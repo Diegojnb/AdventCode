@@ -4,7 +4,7 @@ limit = 2020
 
 def read_input_file():
     current_path = os.getcwd()
-    file = open(current_path + "\\1\\input.txt", "r")
+    file = open(current_path + "\\2020\\1\\input.txt", "r")
     input_file_list = []
     for line in file:
         input_file_list.append(line.replace("\n",""))
